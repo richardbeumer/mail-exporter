@@ -5,6 +5,7 @@ FROM cgr.dev/chainguard/go:latest-dev AS builder
 RUN mkdir /build
 ADD src /build/
 WORKDIR /build
+RUN go mod tidy
 RUN go build mailexporter.go
 
 ###############################################################################
