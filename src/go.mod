@@ -5,7 +5,7 @@ go 1.21
 require (
 	github.com/prometheus/client_golang v1.20.4
 	gopkg.in/fsnotify.v1 v1.4.7
-	gopkg.in/yaml.v2 v2.4.0
+	gopkg.in/yaml.v3 v3.0.1
 	gopkg.in/yaml.v3 v3.0.1
 )
 
