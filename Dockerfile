@@ -3,10 +3,10 @@
 
 FROM cgr.dev/chainguard/go:latest-dev AS builder
 RUN mkdir /build
-ADD src /build/
+COPY src /build/
 WORKDIR /build
-RUN go mod tidy
-RUN go build mailexporter.go
+RUN go mod tidy \
+  && go build mailexporter.go
 
 ###############################################################################
 # PACKAGE STAGE
