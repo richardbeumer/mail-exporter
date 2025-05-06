@@ -2,12 +2,12 @@ module github.com/richardbeumer/mailexporter/src
 
 go 1.22
 
-toolchain go1.24.2
+toolchain go1.24.3
 
 require (
 	github.com/prometheus/client_golang v1.22.0
 	gopkg.in/fsnotify.v1 v1.4.7
-	gopkg.in/yaml.v3 v3.0.1
+	gopkg.in/yaml.v2 v2.4.0
 	gopkg.in/yaml.v3 v3.0.1
 )
 
