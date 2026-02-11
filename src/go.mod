@@ -1,8 +1,6 @@
 module github.com/richardbeumer/mailexporter/src
 
-go 1.24.0
-
-toolchain go1.26.0
+go 1.25.7
 
 require (
 	github.com/prometheus/client_golang v1.23.2
